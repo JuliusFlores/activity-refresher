@@ -3,38 +3,60 @@ import { StudentList } from "./StudentList";
 
 const student1 = new Student(
     "2015-105867",
-    "BSCPE",
-    "CEIT",
-    "Jhon Rhay",
+    "BSIT",
+    "CCS",
+    "Julius Flores",
     20,
     "MALE",
-    "PASAY CITY"
+    "BINANGONAN RIZAL"
 );
 
 const student2 = new Student(
     "2015-105868",
-    "BSCPE",
-    "CEIT",
-    "Jhon Rhay",
+    "BSIT",
+    "CCS",
+    "Jayphe Venadas",
     20,
     "MALE",
-    "PASAY CITY"
+    "BINANGONAN RIZAL"
 );
 
 const student3 = new Student(
     "2015-105869",
-    "BSCPE",
-    "CEIT",
-    "Jhon Rhay",
+    "BSIT",
+    "CCS",
+    "Roahn Vallega",
     20,
     "MALE",
-    "PASAY CITY"
+    "TANAY RIZAL"
+);
+
+const student4 = new Student(
+    "2015-105869",
+    "BSIT",
+    "CCS",
+    "Ludwig Aralar",
+    20,
+    "MALE",
+    "BINANGONAN RIZAL"
+);
+
+const student5 = new Student(
+    "2015-105869",
+    "BSIT",
+    "CCS",
+    "Roahn Vallega",
+    20,
+    "FEMALE",
+    "CARDONA RIZAL"
 );
 
 const studentList = new StudentList([
     student1,
     student2,
-    student3
+    student3,
+    student4,
+    student5
 ]);
 
 console.log(studentList.getStudents());

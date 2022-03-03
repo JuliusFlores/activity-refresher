@@ -14,7 +14,7 @@ export class Student extends Person {
         gender: string,
         address: string,
     ) {
-        super(name, age, gender, address);
+        super(name, age, gender, address,);
         this.studentId = studentId
         this.course = course
         this.college = college
